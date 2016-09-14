@@ -1,0 +1,102 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+Example usage in HTML:
+`display: block` sprite:
+<div class="icon-home"></div>
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+// CSS
+.icon {
+  display: inline-block;
+}
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-1 {
+    width: 21px;
+    height: 22px;
+    background-position: -1px -1px;
+}
+
+.sprite-10 {
+    width: 11px;
+    height: 11px;
+    background-position: -24px -1px;
+}
+
+.sprite-11 {
+    width: 75px;
+    height: 72px;
+    background-position: -37px -1px;
+}
+
+.sprite-12 {
+    width: 75px;
+    height: 72px;
+    background-position: -50px -1px;
+}
+
+.sprite-13 {
+    width: 74px;
+    height: 70px;
+    background-position: -127px -1px;
+}
+
+.sprite-14 {
+    width: 64px;
+    height: 76px;
+    background-position: -203px -1px;
+}
+
+.sprite-2 {
+    width: 21px;
+    height: 22px;
+    background-position: -269px -1px;
+}
+
+.sprite-3 {
+    width: 21px;
+    height: 22px;
+    background-position: -292px -1px;
+}
+
+.sprite-4 {
+    width: 113px;
+    height: 39px;
+    background-position: -315px -1px;
+}
+
+.sprite-5 {
+    width: 113px;
+    height: 39px;
+    background-position: -430px -1px;
+}
+
+.sprite-6 {
+    width: 113px;
+    height: 39px;
+    background-position: -545px -1px;
+}
+
+.sprite-7 {
+    width: 12px;
+    height: 3px;
+    background-position: -660px -1px;
+}
+
+.sprite-8 {
+    width: 12px;
+    height: 3px;
+    background-position: -674px -1px;
+}
+
+.sprite-9 {
+    width: 11px;
+    height: 11px;
+    background-position: -688px -1px;
+}
